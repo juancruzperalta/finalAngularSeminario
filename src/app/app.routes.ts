@@ -1,3 +1,7 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { InfoPokemonComponent } from './info-pokemon/info-pokemon.component';
+import { TiposPokComponent } from './tipos-pok/tipos-pok.component';
+export const routes: Routes = [
+  { path: 'historia', component: InfoPokemonComponent },
+  { path: 'tipos', component: TiposPokComponent },
+];
